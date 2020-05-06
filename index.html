@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 
 <body id="page-top">
@@ -29,12 +30,13 @@
             </div>
         </div>
     </nav>
-    <header class="masthead bg-primary text-white text-center">
-        <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/profile.png">
+    <header class="masthead bg-primary text-white text-center" style="padding-bottom: 6px;">
+        <div class="container" style="height: auto;"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/Kaller%20logo%20final%202%20no%20text.png">
             <h1>Alex Darley</h1>
             <hr class="star-light">
-            <h2 class="font-weight-light mb-0">Game and Software Developer - 3D Artist - CGI Artist</h2>
+            <h2 class="font-weight-light mb-0" style="padding-bottom: 0;">Game and Software Developer - 3D Artist - CGI Artist</h2>
         </div>
+        <h1 class="display-1 bounce animated" style="margin-top: 24px;margin-bottom: 24px;min-width: 16px;width: auto;"><strong>↓</strong><br></h1>
     </header>
     <section id="portfolio" class="portfolio">
         <div class="container">
@@ -65,7 +67,7 @@
             </div>
         </div>
     </section>
-    <section id="about" class="bg-primary text-white mb-0">
+    <section id="about" class="bg-primary text-white mb-0" style="padding-right: 0px;">
         <div class="container">
             <h2 class="text-uppercase text-center text-white">About Me</h2>
             <hr class="star-light mb-5">
@@ -74,7 +76,8 @@
                     <p class="lead text-center">I am a 19 year old Computer Science student at University. My current interests are subside in these main topics: game development, simulation, 3D modeling/CGI and artificial intelligence.</p>
                 </div>
                 <div class="col-lg-4 mr-auto">
-                    <p class="lead text-center" style="margin: 0px;margin-bottom: 6px;">I often work on minor projects, as can be seen in my portfolio. I am open to both paid and free work (depending on the load) so if you are interested please</p><a class="btn btn-secondary" role="button" style="margin-left: 120px;">Contact Me</a></div>
+                    <p class="lead text-center" style="margin: 0px;margin-bottom: 16px;">I often work on minor projects, as can be seen in my portfolio. I am open to both paid and free work (depending on the load) so if you are interested please</p><a class="text-white bg-secondary py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                        href="#contact" style="margin-left: 123px;padding: 16px 16px;padding-right: 16px;padding-left: 16px;">Contact Me</a></div>
             </div>
             <div class="text-center mt-4"></div>
         </div>
@@ -85,18 +88,18 @@
             <hr class="star-dark mb-5">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate" data-bss-recipient="305fc7f2f5ea919d6821d75972f0cc59" data-bss-subject="kallerdaller - New Form Submission">
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" id="name" required="" placeholder="Name"><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" id="name" required="" placeholder="Name"><small class="form-text text-danger help-block">Required</small></div>
                         </div>
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Email Address</label><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Email Address</label><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><small class="form-text text-danger help-block">Required</small></div>
                         </div>
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Phone Number</label><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Phone Number</label><input class="form-control" type="tel" id="phone" placeholder="Phone Number" required=""><small class="form-text text-danger help-block">Optional</small></div>
                         </div>
                         <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-5 pb-2"><textarea class="form-control" id="message" required="" placeholder="Message" rows="5"></textarea><small class="form-text text-danger help-block"></small></div>
+                            <div class="form-group floating-label-form-group controls mb-5 pb-2"><textarea class="form-control" id="message" required="" placeholder="Message" rows="5"></textarea><small class="form-text text-danger help-block">Required</small></div>
                         </div>
                         <div id="success"></div>
                         <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
@@ -107,25 +110,15 @@
     </section>
     <footer class="footer text-center">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Location</h4>
-                    <p>2215 John Daniel Drive<br>Clark, MO 65243</p>
-                </div>
-                <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase">Around the Web</h4>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fa fa-google-plus fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fa fa-dribbble fa-fw"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                    <p class="lead mb-0"><span>Freelance is a free to use, open source Bootstrap theme.&nbsp;</span></p>
-                </div>
-            </div>
+            <h4 class="text-uppercase">Around the Web</h4>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://twitter.com/kallerdaller" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+                <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.instagram.com/kallerdaller/" target="_blank"><i class="fa fa-instagram fa-fw"></i></a></li>
+                <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.twitch.tv/kallerdaller" target="_blank"><i class="fa fa-twitch fa-fw"></i></a></li>
+                <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.youtube.com/channel/UC_6HWI42nyiCuECVDs5jvoQ" target="_blank"><i class="fa fa-youtube-play fa-fw"></i></a></li>
+                <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://github.com/kallerdaller" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+                <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.paypal.me/kallerdaller" target="_blank"><i class="fa fa-paypal fa-fw"></i></a></li>
+            </ul>
         </div>
     </footer>
     <div class="copyright py-4 text-center text-white">
@@ -254,6 +247,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/freelancer.js"></script>
 </body>
