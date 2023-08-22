@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
-description: null
+landing-title: 'Welcome, my name is Alex'
+description: 'Test'
 image: null
 author: null
 show_tile: false
