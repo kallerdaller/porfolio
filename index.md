@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: 'Welcome, my name is Alex'
 description: null
-image: favicon.png
+image: assets/images/favicon.png
 author: null
 show_tile: false
 ---
