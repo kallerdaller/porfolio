@@ -4,11 +4,11 @@ subtitle: Portfolio
 email: darley0alex1@gmail.com
 description: A collection of my education and experience
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://kallerdaller.github.io/porfolio/"
+url: "https://portfolio.kaller.xyz/"
 author:
 street_address: Newmarket
-city: Brisbane QLD
-state: 
+city: Brisbane
+state: Queensland
 zip_code: 
 country: 
 phone: 0426 627 631
