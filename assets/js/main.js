@@ -147,10 +147,7 @@
 
 				// Image.
 
-					// Set image.
-						$this.css('background-image', 'url(' + $img.attr('src') + ')');
-
-					// Set position.
+						// Set position.
 						if ($position) {
 							alert("Top");
 							$this.css('background-position', $position);
@@ -163,6 +160,10 @@
 						}
 						alert("Failed");
 						$image.css('background-position', x);
+
+					// Set image.
+						$this.css('background-image', 'url(' + $img.attr('src') + ')');
+
 				
 
 					// Hide original.
