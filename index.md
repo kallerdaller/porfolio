@@ -1,9 +1,9 @@
 ---
 layout: home
 title: Home
-landing-title: 'Welcome, my name is Alex'
+landing-title: 'Hi, my name is Forty'
 description: null
-image: assets/images/favicon.png
+image: null
 author: null
 show_tile: false
 ---
