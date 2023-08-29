@@ -3,7 +3,7 @@ title: Alexander Darley
 subtitle: Portfolio
 email: darley0alex1@gmail.com
 description: A collection of my education and experience
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "portfolio.kaller.xyz"
 author:
 street_address: Newmarket
