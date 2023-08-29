@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Elements
-image: assets/images/pic01.jpg
+title: Education
+image: assets/images/grad.jpg
 nav-menu: true
 ---
 
