@@ -148,11 +148,11 @@
 				// Image.
 
 					// Set image.
-						$this.css('background-position', $position);
+						$this.css('background-image', 'url(' + $img.attr('src') + ')');
 
 					// Set position.
-						if ($position) {
-							$this.css('background-position', $position) }
+				if ($link) {
+					$this.css('background-position', $link) }
 						else (x = $img.data('position'))
 							$image.css('background-position', x);
 
