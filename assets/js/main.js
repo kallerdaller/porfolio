@@ -152,10 +152,14 @@
 
 					// Set position.
 						if ($position) {
+							console.log("Top");
 							$this.css('background-position', $position);
+							console.log("Complete");
 						}
 						else {
+							console.log("Top");
 							$this.css('background-position', "bottom");
+							console.log("Complete");
 						}
 						$image.css('background-position', x);
 				
