@@ -146,18 +146,11 @@
 					$position = $this.find('.position');
 
 				// Image.
+				//set position
+					$image.css('background-position', x);
 
-						// Set position.
-						if ($position) {
-							$this.css('background-position', top);
-						}
-						else {
-							$this.css('background-position', "bottom");
-						}
-						$image.css('background-position', x);
-
-					// Set image.
-						$this.css('background-image', 'url(' + $img.attr('src') + ')');
+				// Set image.
+					$this.css('background-image', 'url(' + $img.attr('src') + ')');
 
 				
 

@@ -3,7 +3,7 @@ title: Alexander Darley
 subtitle: Portfolio
 email: darley0alex1@gmail.com
 description: A collection of my educational and personal experience
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: Newmarket
