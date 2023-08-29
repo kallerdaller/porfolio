@@ -143,7 +143,7 @@
 					$image = $this.find('.image'), $img = $image.find('img'),
 					$link = $this.find('.link'),
 					x,
-					$position = $this.find('.background-position');
+					$position = $this.find('.position');
 
 				// Image.
 
@@ -151,10 +151,11 @@
 						$this.css('background-image', 'url(' + $img.attr('src') + ')');
 
 					// Set position.
-				if ($link) {
-					$this.css('background-position', $link) }
-						else (x = $img.data('position'))
-							$image.css('background-position', x);
+				if ($position) {
+					$this.css('background-position', $position)
+				}
+					$image.css('background-position', x);
+				
 
 					// Hide original.
 						$image.hide();
