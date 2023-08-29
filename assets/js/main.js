@@ -155,7 +155,7 @@
 							$this.css('background-position', $position);
 						}
 						else {
-							$this.css('background-position', bottom);
+							$this.css('background-position', "bottom");
 						}
 						$image.css('background-position', x);
 				
