@@ -1,9 +1,10 @@
 ---
-title: Landing
-layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
-nav-menu: false
+layout: post
+title: Personal
+description: The personal projects I have created
+image: assets/images/experience.jpg
+nav-menu: true
+background-position: center
 ---
 
 <!-- Main -->
