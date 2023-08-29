@@ -149,16 +149,11 @@
 
 						// Set position.
 						if ($position) {
-							alert("Top");
-							$this.css('background-position', $position);
-							alert("Complete");
+							$this.css('background-position', top);
 						}
 						else {
-							alert("Top");
 							$this.css('background-position', "bottom");
-							alert("Complete");
 						}
-						alert("Failed");
 						$image.css('background-position', x);
 
 					// Set image.
