@@ -151,10 +151,12 @@
 						$this.css('background-image', 'url(' + $img.attr('src') + ')');
 
 					// Set position.
-						if ($position)
+						if ($position) {
 							$this.css('background-position', $position);
-						else
+						}
+						else {
 							$this.css('background-position', bottom);
+						}
 						$image.css('background-position', x);
 				
 
