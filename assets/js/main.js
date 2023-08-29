@@ -148,7 +148,7 @@
 				// Image.
 
 					// Set image.
-						$this.css('background-image', 'url(' + $img.attr('src') + ')');
+						$this.css('background-position', $position);
 
 					// Set position.
 						if ($position) {
