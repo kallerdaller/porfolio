@@ -5,11 +5,7 @@
 {% endif %}
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
-  {% if 'tile.background-position' %}
   <article>
-  {% else %}
-  <article style="background-position: {{ tile.background-position }}">
-  {% endif %}
     <span class="image">
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />
     </span>
