@@ -152,7 +152,7 @@
 
 					// Set position.
 						if ($position) {
-							$image.css('background-position', $position) }
+							$this.css('background-position', $position) }
 						else (x = $img.data('position'))
 							$image.css('background-position', x);
 
