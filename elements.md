@@ -2,6 +2,7 @@
 layout: page
 title: Education
 image: assets/images/grad.jpg
+description: A list of my academic achievements and projects
 nav-menu: true
 ---
 
